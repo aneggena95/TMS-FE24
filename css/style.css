@@ -1,0 +1,80 @@
+@import url(reset.css);
+
+p {
+  font-size: 50px;
+}
+
+#id1 {
+  color: #f00;
+}
+
+.box1#id1 a [class] {
+  padding: 100px;
+  margin: 50px 0;
+  /* 0-9a-f */
+  color: #01f;
+  /* 0-255 */
+  background-color: rgba(255,0,0,.2);
+}
+
+
+.box3 {
+  margin-right: ;
+  margin-left: ;
+  margin-top: ;
+  margin-bottom: ;
+  /* t-r-b-l */
+  margin: 50px 80px 150px 110px;
+  /* t-rl-b */
+  margin: 50px 80px 150px;
+  /* tb-rl */
+  margin: 50px 80px;
+  /* padding: 100px; */
+  background-color: #f00;
+  color: #01f;
+  height: 200px;
+}
+
+.box4 {
+  width: 200px;
+  height: 100px;
+  margin: 50px 150px 30px;
+  padding: 50px;
+  border: 10px solid #000;
+  background-color: aqua;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: aqua;
+  margin: 10px 0 30px;
+} 
+
+
+.box2.box1#id1 a [class] {
+  color: #FFF;
+  font-size: 20px;
+}
+a {
+  color: #f00;
+}
+
+a:hover {
+  color: rgb(131, 172, 226);
+}
+
+* {
+  color: #01f;
+}
+
+.link_g {
+  background-color: aqua;
+}
+
+.link_g ~ li a {
+  background-color: rgb(33, 87, 175);
+}
+
+[href^="http"] {
+  background-color: #f00;
+}

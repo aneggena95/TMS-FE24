@@ -1,4 +1,9 @@
-p{
-    font-size: 50px;
-    color: brown;
+@import url('reset.css');
+
+.box11{
+margin: 100px 150px 30px 200px;
+padding: 50px;
+background-color: red;
+color: green;
+height: 100px;
 }

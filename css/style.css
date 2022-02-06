@@ -1,13 +1,119 @@
 @import url('reset.css');
-@import url('https://fonts.google.com/specimen/Lato');
 
-.main__p{
+<!-- Логика была следующая. Т.к. на макете есть множество элементов с повторяющимися стилямИ, то я просто задавал стиль их группам, а не каждому отдельно. Вроде бы сработало. -->
+
+h1{
+        font-family: Raleway;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;  
+}
+
+h2{
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 900;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: center;
-    color: white;  
+    text-align: left;
+    color: black;  
+}
+
+h3{
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;  
+}
+
+h4{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;  
+}
+
+
+h5{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;  
+}
+
+.main__p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;  
+}
+
+p {
+    
+}
+
+.section2__h5{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray; 
+}
+.section5__h2{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray; 
+}
+
+.section6__div1__1__q,
+.section6__div2__1__q,
+.section6__div3__1__q{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray; 
+}
+
+.footer__p{
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: gray; 
 }

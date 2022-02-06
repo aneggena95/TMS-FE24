@@ -1,9 +1,7 @@
 @import url('reset.css');
+@import url('https://fonts.google.com/specimen/Lato');
 
-.box11{
-margin: 100px 150px 30px 200px;
-padding: 50px;
-background-color: red;
-color: green;
-height: 100px;
+.main__p{
+    text-align: left;
+    text-emphasis-color: grey;   
 }

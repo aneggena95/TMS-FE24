@@ -1,3 +1,43 @@
+.link1{
+  text-decoration: none;
+  color: red;
+  line-height: 1.25;
+  font-size: 30px;
+}
+.link1:hover{
+  color: black;
+}
+.link1:focus{
+  color: yellow;
+}
+.link1:active{
+  color: green;
+}
+.link1:visited{
+  color: aqua;
+}
+.link1:first-child{
+  color: white;
+}
+
+  .conteiner{
+    background-color: #FF4343;
+    width: 1000px;
+    margin: 50px auto 50px; 
+    border-radius: 20px;
+   }
+   .conteiner:hover{
+    background-color: black;
+    width: 750px; 
+    border-radius: 40px;
+   }
+   .text1{
+     color: blue;
+     margin: 25px 25px;
+   }
+
+
+
 .project__hidden-name {
     font-family: Raleway;
     font-size: 24px;

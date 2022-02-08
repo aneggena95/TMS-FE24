@@ -1,6 +1,8 @@
 @import url('reset.css');
 
-<!-- Логика была следующая. Т.к. на макете есть множество элементов с повторяющимися стилямИ, то я просто задавал стиль их группам, а не каждому отдельно. Вроде бы сработало. -->
+body{
+  max-width: 1510px;
+}
 
 h1{
         font-family: Raleway;
@@ -17,6 +19,7 @@ h1{
 
 h2{
   font-family: Raleway;
+  font-weight: 400;
   font-size: 36px;
   font-style: normal;
   font-weight: normal;
@@ -37,13 +40,108 @@ p {
 }
 a{
   text-decoration: none;
+  color: white;
 }
 
-.header{
+button{
+  width: 270px;
+  height: 58px;
+  border: 2px;
+  border-color: #000000;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  background-color: #EC7979;
+}
+
+.header__nav{
   background-color: #000000;
-  width: 1570px;
+  width: 1510px;
   height: 75px;
 }
-.header__nav{
-margin: auto auto 115px;
-}
+.header__ul{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  color: #86878B;
+  text-transform: capitalize;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 675px;
+  margin: -30px 165px 0px 770px;
+  }
+  .header__li{
+    width: 115px;
+  }
+  .header__logo{
+    margin: 22px auto auto 115px;
+    width: 85px;
+    height: 35px;
+  }
+
+  .section1{
+    width: 1510px;
+    height: 1026px;
+    margin: auto 0;
+    background: url('/img/benner.jpg ')
+  }
+  .section1__logo{
+    margin: 231px 1238px 665px 170px;
+    width: 162px;
+    height: 55px;
+  }
+
+  .section1__p1{
+    margin: -476px 670px 425px 170px;
+    font-family: Raleway;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+    }
+
+    .sectionq__hr{
+      margin: -375px 670px 425px 170px;
+      width: 170px;
+    }
+    .section1__p2{
+      margin: -399px 1070px 285px 170px;
+      color: black;
+    }
+    .section1__button{
+      margin: -783px 1070px 185px 170px;
+    }
+
+    .section2{
+      width: 1510px;
+      height: 140px;
+      background-color:#F8EFEF;
+      margin: 100px 0px auto 0px;
+    }
+    .section2__left{
+      margin: 0px 870px 78px 170px;
+      width: 470px;
+      height: 60px;
+    }
+    .section2__p1{
+      margin: 2px 870px 78px 170px;
+    }
+    .section2__p1{
+      margin: 80px 870px 18px 170px;
+    }
+    .section2__ul{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 675px;
+      margin: -90px auto 45px 690px;
+      }
+      .section2__li{
+        width: 53px;
+      }

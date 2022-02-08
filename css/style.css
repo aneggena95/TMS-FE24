@@ -38,22 +38,12 @@ p {
 a{
   text-decoration: none;
 }
+
 .header{
   background-color: #000000;
   width: 1570px;
   height: 75px;
 }
-.header__li{
-  display: inline;
-}
-.header__logo{
-  width: 85px;
-  height: 31px;
-  margin: 20px 0px 20px 170px;
-}
-.header__a{
-  margin: 50px 0px 20px 50px;
-  width: 115px;
-  height: 75px;
-
+.header__nav{
+margin: auto auto 115px;
 }

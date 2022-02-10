@@ -76,3 +76,6 @@ h6
   padding: 0 15px;
 }
 
+.header__ul {
+  display: flex;
+}

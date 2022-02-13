@@ -13,45 +13,42 @@ body{
   font-family: 'Raleway' sans-serif;
 }
 
-h1
-.title1{
-  font-size: 64px;
-  line-height: 75px;
-  font-weight: 900;
+h1{
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 500;
 }
 
-h2
-.title2{
+h2{
   font-size: 36px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
-h3
-.title3{
+h3{
+  font: 'Open Sans';
   font-size: 30px;
-  line-height: 35px;
+  line-height: 40px;
   font-weight: 700;
 }
 
-h4
-.title4{
+h4{
+  font: 'Open Sans';
   font-size: 24px;
-  line-height: 28px;
-  font-weight: 900;
+  line-height: 32px;
+  font-weight: 700;
 }
 
-h5
-.title5{
+h5{
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
-h6
-.title6{
+h6{
+  font: 'Open Sans';
   font-size: 13px;
-  line-height: 15px;
+  line-height: 17px;
   font-weight: 700;
 }
 

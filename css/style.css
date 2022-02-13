@@ -1,144 +1,77 @@
 @import url('reset.css');
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
 
 body{
-  max-width: 1510px;
+  font: 400 18px/21px 'Raleway' sans-serif;
+  height: 100%;
+  font-family: 'Raleway' sans-serif;
 }
 
-h1{
-        font-family: Raleway;
-        font-size: 48px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 56px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FFFFFF;  
-        text-transform: uppercase;
-        
+h1
+.title1{
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 900;
 }
 
-h2{
-  font-family: Raleway;
-  font-weight: 400;
+h2
+.title2{
   font-size: 36px;
-  font-style: normal;
-  font-weight: normal;
   line-height: 42px;
-  text-align: center;
-  color: #000000;  
-  text-transform: uppercase; 
+  font-weight: 700;
 }
 
-p {
-  font-family: Raleway;
+h3
+.title3{
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+h4
+.title4{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 900;
+}
+
+h5
+.title5{
   font-size: 18px;
-  font-style: normal;
-  font-weight: normal;
   line-height: 21px;
-  text-align: left;
-  color: #86878B;
+  font-weight: 400;
 }
-a{
+
+h6
+.title6{
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+}
+
+.btn{
+  width: 370px;
+  height: 70px;
+  border: none;
+  outline: none;
+  background-color: rgb(223, 13, 13);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 900;
+  list-style: none;
+
+  color: bisque;
   text-decoration: none;
-  color: white;
 }
 
-button{
-  width: 270px;
-  height: 58px;
-  border: 2px;
-  border-color: #000000;
-  font-size: 18px;
-  font-family: 'Open Sans';
-  background-color: #EC7979;
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
-.header__nav{
-  background-color: #000000;
-}
-.header__ul{
-  font-family: 'Open Sans';
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 19px;
-  text-align: center;
-  color: #86878B;
-  text-transform: capitalize;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: -30px 165px 0px 770px;
-  }
-  .header__li{
-    width: 115px;
-  }
-  .header__logo{
-    margin: 22px auto auto 115px;
-    width: 85px;
-    height: 35px;
-  }
-
-  .section1{
-    width: 1510px;
-    height: 1026px;
-    margin: auto 0;
-    background: url('/img/benner.jpg ')
-  }
-  .section1__logo{
-    margin: 231px 1238px 665px 170px;
-    width: 162px;
-    height: 55px;
-  }
-
-  .section1__p1{
-    margin: -476px 670px 425px 170px;
-    font-family: Raleway;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 56px;
-    text-align: left;
-    text-transform: uppercase;
-    color: black;
-    }
-
-    .sectionq__hr{
-      margin: -375px 670px 425px 170px;
-      width: 170px;
-    }
-    .section1__p2{
-      margin: -399px 1070px 285px 170px;
-      color: black;
-    }
-    .section1__button{
-      margin: -783px 1070px 185px 170px;
-    }
-
-    .section2{
-      width: 1510px;
-      height: 140px;
-      background-color:#F8EFEF;
-      margin: 100px 0px auto 0px;
-    }
-    .section2__left{
-      margin: 0px 870px 78px 170px;
-      width: 470px;
-      height: 60px;
-    }
-    .section2__p1{
-      margin: 2px 870px 78px 170px;
-    }
-    .section2__p1{
-      margin: 80px 870px 18px 170px;
-    }
-    .section2__ul{
-      display:flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 675px;
-      margin: -90px auto 45px 690px;
-      }
-      .section2__li{
-        width: 53px;
-      }

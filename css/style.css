@@ -55,8 +55,6 @@ button{
 
 .header__nav{
   background-color: #000000;
-  width: 1510px;
-  height: 75px;
 }
 .header__ul{
   font-family: 'Open Sans';
@@ -70,7 +68,6 @@ button{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 675px;
   margin: -30px 165px 0px 770px;
   }
   .header__li{

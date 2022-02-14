@@ -4,80 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <title>ActiveBox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header class="container">
-    <nav class="header__nav">
-      <a href="">
-        <img src="./images/logo.svg" alt="ActiveBox">
-      </a>
-      <ul class="header__ul">
-        <li><a href="">features</a></li>
-        <li><a href="">works</a></li>
-        <li><a href="">our team</a></li>
-        <li><a href="">testimonials</a></li>
-        <li><a href="">download</a></li>
-      </ul>
-    </nav>
+
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav">
+        <a href="" class="header__logo">
+          <img src=" ./images/logo.svg" alt="ActiveBox" class="header__logo__img">
+        </a>
+        <ul class="menu">
+          <li class="menu__item"><a href="" class="menu_link">features</a></li>
+          <li class="menu__item"><a href="" class="menu_link">works</a></li>
+          <li class="menu__item"><a href="" class="menu_link">our team</a></li>
+          <li class="menu__item"><a href="" class="menu_link">testimonials</a></li>
+          <li class="menu__item"><a href="" class="menu_link">download</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-
     <!-- Main baner -->
-    <section>
-      <h1>Your Favorite One Page Multi Purpose Template</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
-        vel scelerisque nisl consectetur et.</p>
-      <a href="#0">Find Out More</a>
+    <section class="main-banner">
+      <div class="container">
+        <h1 class="title1 main-banner__title">Your Favorite One Page Multi Purpose Template</h1>
+        <p class="main-banner__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus
+          magna
+          vel scelerisque nisl consectetur et.</p>
+        <a href="#0" class="button">Find Out More</a>
+      </div>
     </section>
 
     <!-- advantage -->
     <section>
       <h2 hidden>advantage</h2>
-      <ul>
-        <li>
-          <img src="./images/icons/icon_1.svg" alt="">
-          <h3>Easily Customised</h3>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
+      <ul class="advantage">
+        <li class="advantage__item">
+          <img src="./images/icons/icon_1.svg" alt="" class="advantage__neme__img">
+          <h3 class="title4">Easily Customised</h3>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis
+            ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
-        <li>
+        <li class="advantage__item">
           <img src="./images/icons/icon_2.svg" alt="">
-          <h3>Responsive REady</h3>
+          <h3 class="title4">Responsive REady</h3>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
-
-        <li>
+        <li class="advantage__item">
           <img src="./images/icons/icon_3.svg" alt="">
-          <h3>Modern Design</h3>
+          <h3 class="title4">Modern Design</h3>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
-
-        <li>
+        <li class="advantage__item">
           <img src="./images/icons/icon_4.svg" alt="">
-          <h3>Clean Code</h3>
+          <h3 class="title4">Clean Code</h3>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
 
         <li>
           <img src="./images/icons/icon_5.svg" alt="">
-          <h3>Ready to Ship</h3>
+          <h3 class="title4">Ready to Ship</h3>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
 
         <li>
           <img src="./images/icons/icon_6.svg" alt="">
-          <h3>Download for Free</h3>
+          <h3 class="title4">Download for Free</h3>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel
             eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
         </li>
@@ -87,79 +90,80 @@
     <!-- Projects -->
     <section>
       <h2 hidden>Projects</h2>
-      <div class="project__container">
-        <div class="project__item">
-          <img src="./assets/images/work_1.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+      <div class="projects">
+        <div class="projects__list">
+          <img src="" alt="" class="projects__list__img">
+          <div class="projects__list__info">
+            <h3 class="title4">Project Name</h3>
+            <p class="projects__list__text">User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_2.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>class
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_3.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_4.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_5.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_6.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_7.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
-        <div class="project__item">
-          <img src="./assets/images/work_8.png" alt="icon" class="project__picture">
-          <div class="project__hidden-block">
-            <h3 class="project__hidden-name">Project Name</h3>
-            <p class="project__hidden-text">User Interface Design</p>
+        <div class="">
+          <img src="" alt="">
+          <div class="">
+            <h3>Project Name</h3>
+            <p>User Interface Design</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Team -->
-    <section>
+    <section class="section">
       <h2 hidden>Team</h2>
-      <div class="">
-        <div class="">
-          <img src="./images/Team1.jpg" alt="">
-          <h3>Ruth woods</h3>
-          <span>founder, ceo</span>
-          <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+      <div class="team__mambers">
+        <div class="team__all-mambers__">
+          <img src="./images/Team1.jpg" alt="" class="team__all-mambers__ruth__photo">
+          <h3 class="wrap-team__card__title">Ruth woods</h3>
+          <span class="wrap-team__card__subtitle">founder, ceo</span>
+          <p class="wrap-team__card__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum massa justo sit amet
             risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis
             ornare vel eu leo.</p>
-          <ul>
-            <li><a href=""><img src="" alt=""></a></li>
+          <ul class="wrap-team__card__list">
+            <li class="wrap-team__card__list__item"><a href=""><img src="" alt=""></a></li>
             <li><a href=""><img src="" alt=""></a></li>
             <li><a href=""><img src="" alt=""></a></li>
           </ul>
@@ -207,15 +211,15 @@
     </section>
 
     <section>
-      <h2 hidden>Reviews</h2>
-      <div class="">
-        <img src="" alt="">
-        <div class="">
-          <blockquote>
+      <h2 class="author__title" hidden>Reviews</h2>
+      <div class="reviews">
+        <img src="" alt="" class="reviews__img">
+        <div class="reviews__comment">
+          <blockquote class="reviews__comment__text">
             “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo
             quam...”
           </blockquote>
-          <p>Susan Sims, Interaction Designer at XYZ</p>
+          <p class="reviews__comment__info">Susan Sims, Interaction Designer at XYZ</p>
         </div>
       </div>
     </section>

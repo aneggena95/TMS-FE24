@@ -14,11 +14,73 @@ body{
 }
 
 .box1{
+  height: 600px;
+  border: 10px dotted rgb(0, 0, 0);
   background-color: rgb(168, 36, 135);
-  background-image: url();
-  background-a
-  background-position: ;
-  background-size: contain;
-  background-attachment: ;
-  background; #f000;
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-origin: ;
+  background-attachment: fixed;
+  padding: 100px;
+  font-size: 100px;
+  line-height: 1;
 }
+.box2{
+  height: 400px;
+  background: linear-gradient(rgb(65, 209, 36), rgb(68, 6, 126));
+}
+
+.box_wrap{
+margin: 30px 100px;
+height: 300px;
+background-color: aqua;
+}
+
+[class*='box_item']{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(118, 0, 0);
+  display: inline-block;
+  text-align: center;
+}
+
+.box_item2{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: -65px auto auto auto;
+  background-color: rgb(182, 8, 8);
+}
+
+.box_item3{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto -65px auto auto;
+  background-color: rgb(38, 184, 32);
+}
+
+.box_item4{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto auto -65px auto;
+  background-color: rgb(58, 11, 102);
+}
+
+.box_item5{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto auto auto auto -65px;
+  background-color: rgb(10, 143, 153);
+}
+
+1 - 10px ddth[
+2  вправо
+  вниз
+  влево
+]

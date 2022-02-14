@@ -99,7 +99,6 @@ button:active {
 .header{
   position: relative;
   background-color: #000;
-  height: 75px;
 }
 
 .header__nav{
@@ -111,6 +110,7 @@ button:active {
 
 .header__logo{
   margin-top: 22px;
+  margin-bottom: 22px;
   margin-left: -55px;
 }
 .header__logo__img{
@@ -121,13 +121,11 @@ button:active {
 .menu{
   display: flex;
   align-self: flex-end;
-  margin-left: 330px;
-  margin-top: -10px;
 }
 
 .menu__item{
   display: inline-block;
-  width: 135px;
+  min-width: 113px;
 }
 .menu_link{
 font: 'Open Sans';

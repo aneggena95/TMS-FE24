@@ -224,6 +224,7 @@ text-decoration: none;
   position: relative;
   background-color: #F8EFEF;
   padding: 0 170px;
+  margin-top: -85px;
 }
 .socmedia__left{
   padding-top: 2px;
@@ -373,16 +374,19 @@ margin-top: 110px;
 min-width: 370px;
 text-align: center;
 }
+
 .awesome__div {
 margin: 0 auto;
 }
+
 .awesome__img{
 height: 92px;
 width: 92px;
-display: block;
-margin-left: auto;
-margin-right: auto
+top: 50%;
+left: 50%;
+transform: translate(-50% -50%);
 }
+
 .awesome__h3{
   text-align: center;
   margin-top: 76px;

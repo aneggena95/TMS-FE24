@@ -15,49 +15,54 @@ body{
 }
 
 .container {
-  max-width: 1510px;
-  margin: 0 auto;
-  padding: 0 170px;
+  max-width: 1540px;
+  padding: 0 15px;
 }
 
 /* Titles */
 
-h1{
+h1,
+.title1{
   font: 'Raleway' sans-serif;
   font-size: 48px;
   line-height: 56px;
   font-weight: 500;
 }
 
-h2{
+h2,
+.title2{
   font: 'Raleway' sans-serif;
   font-size: 36px;
   line-height: 42px;
   font-weight: 400;
 }
 
-h3{
+h3,
+.title3{
   font: 'Open Sans';
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
 }
 
-h4{
+h4,
+.title4{
   font: 'Open Sans';
   font-size: 24px;
   line-height: 32px;
   font-weight: 700;
 }
 
-h5{
+h5,
+.title5{
   font: 'Raleway' sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
 
-h6{
+h6,
+.title6{
   font: 'Open Sans';
   font-size: 13px;
   line-height: 17px;
@@ -105,6 +110,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 170px;
 }
 
 .header__logo{
@@ -126,12 +132,13 @@ button:active {
 
 .menu__item{
   display: inline-flex;
-  min-width: 113px;
+  width: 113px;
 }
 .menu_link{
+
 font: 'Open Sans';
 font-size: 14px;
-line-height: 19px;
+line-height: 75px;
 font-weight: 600;
 text-align: center;
 color: #fff;

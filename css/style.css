@@ -17,6 +17,7 @@ body{
 .container {
   max-width: 1540px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* Titles */
@@ -128,14 +129,15 @@ button:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 570px;
 }
 
-.menu__item{
-  display: inline-flex;
-  width: 113px;
+.menu__item {
+display: inline-block;
+width: 113px;
 }
+
 .menu_link{
-
 font: 'Open Sans';
 font-size: 14px;
 line-height: 75px;
@@ -147,38 +149,31 @@ text-decoration: none;
 
 /* main */
 
-.container2{
-  max-width: 1510px;
-  margin: 0 auto;
-  padding: 0 170px; 
-  background: url('/img/banner.jpeg') no-repeat;
-  background-size: contain;
-}
-
 .main{
   background-color: #fff;
 }
 
 .welcome{
-  max-height: 1026px;
+  padding: 0 170px; 
+  background: url('/img/banner.jpeg');
+  background-size: contain;
 }
 
-.welcome__logo__img{
-  margin: 231px auto auto auto;
-}
 .welcome__logo__img{
   height: 55px;
   width: 165px;
+  margin: 231px auto auto auto;
 }
 
 .welcome__h1{
-  margin: 72px auto auto auto;
+  margin-top: 72px;
+  max-width: 670px;
+  max-height: 168px;
+  color: #fff;
 }
+
 .welcome__h1__text{
   text-align: left;
-  height: 168px;
-  width: 670px;
-  color: #fff;
 }
 
 .wecome__hr{
@@ -189,9 +184,10 @@ text-decoration: none;
 
 .welcome__p{
   margin-top: 42px;
-  height: 42px;
-  width: 270px;
+  max-height: 42px;
+  max-width: 270px;
 }
+
 .welcome__p__text{
   font: 'Raleway' sans-serif;
   font-size: 18px;
@@ -201,21 +197,20 @@ text-decoration: none;
   color: #fff;
   }
 
-  .welcome__button{
-    margin: 42px 900px 185px auto;
-    border: 2px solid #ffffff;
-    background-color: transparent
+.welcome__button{
+  margin: 42px 900px 185px auto;
+  border: 2px solid #ffffff;
+  background-color: transparent
   }
 
-.container3{
+.socmedia{
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #F8EFEF;
-  max-width: 1510px;
-  padding: 0 170px;
   margin-top: -84px;
+  padding: 0 170px;
 }
 
 .socmedia__left{
@@ -224,26 +219,14 @@ width: 470px;
 }
 
 .socmedia__p1{
-  font: 'Open Sans' sans-serif;
-  font-size: 24px;
-  line-height: 21px;
-  font-weight: 700;
+  margin-top: 18px;
   text-align: left;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  width: 470px;
-  height: 60px;
 }
 
 .socmedia__p2{
-  font: 'Raleway' sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  height: 42px;
-  width: 470px;
+  text-align: left;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
 .socmedia__right{
@@ -251,7 +234,16 @@ width: 470px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 670px;
+  padding-left: 690px;
+}
+
+.socmedia__right{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  width: 560px;
 }
 
 .socmedia__ul{

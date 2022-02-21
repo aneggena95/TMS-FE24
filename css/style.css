@@ -421,18 +421,46 @@ transform: translate(-50% -50%);
   margin-top: 40px;
 }
 
-.pricing__basic{
+.pricing__main{
+  position: absolute;
+  
 }
 
+.pricing__basic{
+  position: relative;
+  width: 370px; 
+}
 
-.pricinglist1__1a{
+.basic__title{
+  position: relative;
   background: #333333;
   height: 60px;
-  width: 370px;
+  padding-top: 14px;
 }
-.pricinglist1__h3{
+.basic__h3{
+  color: #fff;
   text-align: center;
-  color: #F5F5F5;
-  margin-top: auto;
-  margin-bottom: auto;
+}
+
+.basic__prise{
+  position: relative;
+  top: 2px;
+  background: #333333;
+  height: 100px;
+  padding-top: 30px;
+}
+.basic__p1{
+  color: #fff;
+  text-align: center;
+}
+.basic__text{
+  position: relative;
+  top: 4px;
+  background: #333333;
+  height: 30px;
+  padding-top: 4px;
+}
+.basic__p2{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
 }

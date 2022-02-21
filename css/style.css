@@ -396,3 +396,43 @@ transform: translate(-50% -50%);
   margin-top: 46px;
 }
 
+.pricing{
+  margin-top: 50px;
+  padding-left: 170px;
+  padding-right: 170px;
+  background: #F5F5F5;
+}
+
+.pricing__title{
+  text-align: center;
+}
+.pricing__h2{
+  text-transform:uppercase;
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
+.pricing__hr{
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 1px;
+}
+.pricing__p{
+  margin-top: 40px;
+}
+
+.pricing__basic{
+}
+
+
+.pricinglist1__1a{
+  background: #333333;
+  height: 60px;
+  width: 370px;
+}
+.pricinglist1__h3{
+  text-align: center;
+  color: #F5F5F5;
+  margin-top: auto;
+  margin-bottom: auto;
+}

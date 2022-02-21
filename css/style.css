@@ -10,7 +10,7 @@
 .hill{
 position: relative;
 width: 1000px; 
-height: 300px;
+height: 200px;
 background: #9CD6C0;
 border-radius: 200px 200px 25px 25px;
 margin: 500px auto 0;
@@ -53,3 +53,256 @@ top: 30px;
 left: -10px;
 }
 
+.door{
+position: absolute;
+width: 20px; 
+height: 45px;
+background-color: rgb(129, 0, 0);
+top: 50px;
+left: 10px;
+}
+.door__rang{
+position: absolute;
+width: 5px; 
+height: 5px;
+background: #95d109;
+border-radius: 50%;
+top: 50%;
+right: 3px;
+}
+.house__window{
+  position: absolute;
+  width: 40px; 
+  height: 40px;
+  background-color: rgb(214, 8, 8);
+  right: 10px;
+  top: 32px;
+}
+.window__frame1{
+  position: absolute;
+  width: 6px; 
+  height: 40px;
+  background-color: rgb(196, 196, 196);
+  right: 17px;
+}
+.window__frame2{
+  position: absolute;
+  width: 40px; 
+  height: 6px;
+  background-color: rgb(196, 196, 196);
+  top: 17px;
+}
+
+.fence{
+  position: absolute;
+  width: 150px; 
+  height: 100px;
+  background-color: transparent;
+  top: -20px;
+  left: 370px;
+}
+.fence1{
+  position: absolute;
+  width: 15px; 
+  height: 100px;
+  background-color: rgb(192, 0, 112);
+  left: 20px;
+}
+.fence2{
+  position: absolute;
+  width: 15px; 
+  height: 100px;
+  background-color: rgb(192, 0, 112);
+  left: 45px;
+}
+.fence3{
+  position: absolute;
+  width: 15px; 
+  height: 100px;
+  background-color: rgb(192, 0, 112);
+  left: 70px;
+}
+.fence4{
+  position: absolute;
+  width: 15px; 
+  height: 100px;
+  background-color: rgb(192, 0, 112);
+  left: 95px;
+}
+.fence5{
+  position: absolute;
+  width: 15px; 
+  height: 100px;
+  background-color: rgb(192, 0, 112);
+  left: 120px;
+}
+
+.tree{
+  position: absolute;
+  width: 100px; 
+  height: 200px;
+  background-color: transparent;
+  left: 550px;
+  top: -180px;
+}
+.tree__1{
+  position: absolute;
+  width: 30px; 
+  height: 50px;
+  background-color: rgb(65, 45, 45);
+  left: 35px;
+  bottom: 0px;
+}
+.tree__2{
+position: absolute;
+width: 0; 
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 50px solid #4bc51b;
+left: 0px;
+bottom: 50px;
+}
+.tree__3{
+position: absolute;
+width: 0; 
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 50px solid #4bc51b;
+left: 0px;
+bottom: 95px;
+}
+.tree__4{
+position: absolute;
+width: 0; 
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 50px solid #4bc51b;
+left: 0px;
+bottom: 140px;
+}
+
+.tree__5 {
+  position: absolute;
+  height: 0; 
+  width: 0;
+  position: relative;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid #E7337A;
+  border-left: 50px solid transparent;
+  transform: rotate(35deg);
+  left: 0px;
+  bottom: 30px;
+  }
+  .tree__5:before, 
+  .tree__5:after {
+  content: "";
+  height: 0; 
+  width: 0;
+  position: absolute;
+  }
+  .tree__5:before {
+  top: -26px; 
+  left: -32px;
+  border-bottom: 40px solid #E7337A;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  transform: rotate(-35deg);
+  }
+  .tree__5:after {
+  top: 2px; 
+  left: -53px;
+  border-right: 50px solid transparent;
+  border-bottom: 35px solid #E7337A;
+  border-left: 50px solid transparent;
+  transform: rotate(-70deg);
+  }
+
+
+
+  .sky{
+    position: relative;
+    width: 1000px; 
+    height: 200px;
+    margin: 0 auto;
+  }
+  .sun{
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: #dae90b;
+    border-radius: 50%;
+    right: 0px;
+    bottom: -250px;
+  }
+  .cloudA{
+    position: absolute;
+    width: 250px; 
+    height: 100px;
+    bottom: -250px;
+    left: 100px;
+  }
+  .cloudA__1{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 20px;
+  }
+  .cloudA__2{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 70px;
+  }
+  .cloudA__3{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 120px;
+  }
+
+  .cloudB{
+    position: absolute;
+    width: 250px; 
+    height: 100px;
+    bottom: -220px;
+    left: 400px;
+  }
+  .cloudB__1{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 20px;
+  }
+  .cloudB__2{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 70px;
+  }
+  .cloudB__3{
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: #0b1fdb;
+    border-radius: 50%;
+    right: 0px;
+    left: 120px;
+  }

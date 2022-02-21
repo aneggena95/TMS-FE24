@@ -16,6 +16,8 @@ body{
 .container {
   max-width: 1510px;
   margin: 0 auto;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 /* Titles */
@@ -120,8 +122,6 @@ button:active {
 .header{
   position: relative;
   background-color: #000;
-  padding-left: 170px;
-  padding-right: 170px;
 }
 
 .header__nav{
@@ -169,7 +169,6 @@ text-decoration: none;
 }
 
 .welcome{
-  padding: 0 170px; 
   background: linear-gradient(rgba(15, 16, 20, 0.8), rgba(15, 16, 20, 0.8)) 25% 25%, url('/img/banner.jpeg');
   background-size: contain;
 }
@@ -223,7 +222,6 @@ text-decoration: none;
   align-items: center;
   position: relative;
   background-color: #F8EFEF;
-  padding: 0 170px;
   margin-top: -85px;
 }
 .socmedia__left{
@@ -259,13 +257,9 @@ text-decoration: none;
   margin: auto 5px;
 }
 
-
 .tabstitles{
   margin-top: 80px;
-  padding-left: 170px;
-  padding-right: 170px;
 }
-
 .divtab{
   padding-right: 600px;
 }
@@ -302,7 +296,7 @@ text-decoration: none;
 }
 
 .tabstext{
-  width: 570px;
+  width: 700px;
   padding-left: 100px;
   margin-right: 30px;
 }
@@ -335,13 +329,10 @@ margin-bottom: 54px;
 
 .awesome{
   margin-top: 50px;
-  padding-left: 170px;
-  padding-right: 170px;
 }
 
 .awesome__title{
   text-align: center;
-
 }
 .awesome__h2{
   padding-top: 57px;
@@ -359,32 +350,33 @@ margin-top: 40px;
 }
 
 .awesomelist{
-position: relative;
+display: flex;
 margin-top: 110px;
 }
 
-.awesome__ul{
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.awesome__div1{
+  position: relative;
+  left: 1px;
+  width: 370px;
 }
 
-.awesome__li {
-min-width: 370px;
-text-align: center;
+.awesome__div2{
+  position: relative;
+  left: 30px;
+  width: 370px;
 }
 
-.awesome__div {
-margin: 0 auto;
+.awesome__div3{
+  position: relative;
+  left: 60px;
+  width: 370px;
 }
-
 .awesome__img{
+position: relative;
+left: 40%;
+right: 40%;
 height: 92px;
 width: 92px;
-top: 50%;
-left: 50%;
-transform: translate(-50% -50%);
 }
 
 .awesome__h3{
@@ -393,74 +385,104 @@ transform: translate(-50% -50%);
 }
 .awesome__p{
   text-align: center;
-  margin-top: 46px;
+  margin-top: 45px;
 }
 
 .pricing{
-  margin-top: 50px;
-  padding-left: 170px;
-  padding-right: 170px;
+  margin-top: 58px;
   background: #F5F5F5;
 }
 
-.pricing__title{
+.pricinghead{
   text-align: center;
 }
-.pricing__h2{
+.pricinghead__h2{
   text-transform:uppercase;
   padding-top: 57px;
   padding-bottom: 57px;
 }
 
-.pricing__hr{
+.pricinghead__hr{
   margin-left: 500px;
   margin-right: 500px;
   height: 1px;
 }
-.pricing__p{
+.pricinghead__p{
   margin-top: 40px;
 }
 
 .pricing__main{
-  position: absolute;
-  
+  position: relative;
+  margin-top: 79px;
+  display: flex;
 }
 
 .pricing__basic{
   position: relative;
+  top: 0px;
   width: 370px; 
 }
 
-.basic__title{
+.pricing__title{
   position: relative;
+  top: 0px;
   background: #333333;
   height: 60px;
   padding-top: 14px;
 }
-.basic__h3{
+.pricing__h3{
   color: #fff;
   text-align: center;
 }
 
-.basic__prise{
+.pricing__prise{
   position: relative;
   top: 2px;
   background: #333333;
   height: 100px;
   padding-top: 30px;
 }
-.basic__p1{
+.pricing__p1{
   color: #fff;
   text-align: center;
 }
-.basic__text{
+.pricing__text{
   position: relative;
-  top: 4px;
+  top: 5px;
   background: #333333;
   height: 30px;
   padding-top: 4px;
 }
-.basic__p2{
+.pricing__p2{
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
+}
+
+.pricing__GB{
+  position: relative;
+  height: 300px;
+}
+
+.pricingclass{
+  position: relative;
+  background: #fff;
+  border-bottom: 2px #F5F5F5;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  padding-top: 14px;
+  margin-top: 2px;
+}
+
+.pricing__optima{
+  position: relative;
+  top: -10px;
+  left: 30px;
+  width: 370px; 
+}
+
+.pricing__pro{
+  position: relative;
+  left: 60px;
+  width: 370px; 
 }

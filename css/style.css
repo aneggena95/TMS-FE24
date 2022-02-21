@@ -248,7 +248,7 @@ bottom: 140px;
     position: absolute;
     width: 100px; 
     height: 100px;
-    background: #0b1fdb;
+    background: #2306a3;
     border-radius: 50%;
     right: 0px;
     left: 20px;
@@ -257,7 +257,7 @@ bottom: 140px;
     position: absolute;
     width: 100px; 
     height: 100px;
-    background: #0b1fdb;
+    background: #2306a3;
     border-radius: 50%;
     right: 0px;
     left: 70px;
@@ -266,10 +266,10 @@ bottom: 140px;
     position: absolute;
     width: 100px; 
     height: 100px;
-    background: #0b1fdb;
+    background: #2306a3;
     border-radius: 50%;
     right: 0px;
-    left: 120px;
+    right: 20px;
   }
 
   .cloudB{
@@ -305,4 +305,102 @@ bottom: 140px;
     border-radius: 50%;
     right: 0px;
     left: 120px;
+  }
+
+  .rain{
+    position: absolute;
+    width: 90px; 
+    height: 30px;
+    background: transparent;
+    right: 0px;
+    bottom: -280px;
+    left: 180px;
+  }
+  .rain1{
+    position: absolute;
+    width: 3px; 
+    height: 20px;
+    background: #2306a3;
+    right: 5px;
+  }
+
+  .rain1{
+    position: absolute;
+    width: 3px; 
+    height: 15px;
+    background: #2306a3;
+    right: 5px;
+  }
+
+  .rain2{
+    position: absolute;
+    width: 3px; 
+    height: 15px;
+    background: #2306a3;
+    right: 12px;
+  }
+
+   .rain3{
+    position: absolute;
+    width: 3px; 
+    height: 15px;
+    background: #2306a3;
+    right: 20px;
+    top: 4px;
+  }
+  .rain4{
+    position: absolute;
+    width: 3px; 
+    height: 22px;
+    background: #2306a3;
+    right: 28px;
+    top: 7px;
+  }
+  .rain5{
+    position: absolute;
+    width: 3px; 
+    height: 20px;
+    background: #2306a3;
+    right: 36px;
+    top: 2px;
+  }
+  .rain6{
+    position: absolute;
+    width: 3px; 
+    height: 21px;
+    background: #2306a3;
+    right: 44px;
+    top: 4px;
+  }
+  .rain7{
+    position: absolute;
+    width: 3px; 
+    height: 19px;
+    background: #2306a3;
+    right: 52px;
+    top: 9px;
+  }
+  .rain8{
+    position: absolute;
+    width: 3px; 
+    height: 20px;
+    background: #2306a3;
+    right: 60px;
+    top: 5px;
+  }
+  .rain9{
+    position: absolute;
+    width: 3px; 
+    height: 20px;
+    background: #2306a3;
+    right: 68px;
+    top: 2px;
+  }
+  .rain10{
+    position: absolute;
+    width: 3px; 
+    height: 12px;
+    background: #2306a3;
+    right: 76px;
+    top: 15px;
   }

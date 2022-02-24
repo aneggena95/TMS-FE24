@@ -168,7 +168,7 @@ text-decoration: none;
 .welcome{
   background: linear-gradient(rgba(15, 16, 20, 0.8), rgba(15, 16, 20, 0.8)) 25% 25%, url('/img/banner.jpeg');
   background-size:cover;
-  background-repeat: round space;
+  background-repeat: no-repeat;
 }
 .welcome__logo{
   display: inline-block;

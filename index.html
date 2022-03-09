@@ -3,20 +3,189 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>lesson10</title>
+  <title>ActiveBox</title>
   <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
   <div class="container">
-    <div class="item item1">Коробка 1</div>
-    <div class="item item2">Коробка 2</div>
-    <div class="item item3">Коробка 3</div>
+    <form>
+
+      <fieldset>
+        <legend>Title</legend>
+        <label for="name2">Имя</label>
+        <input id="name" type="text" tabindex="0">
+        <input id="name2" type="text" placeholder="Фамилия">
+        <select name="" id="">
+          <option value="">10</option>
+          <option value="">20</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Title 2</legend>
+        <input type="checkbox" checked>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="form-row">
+
+          <select>
+            <optgroup label="Название группы">
+              <option value="efwrfee">Item1</option>
+              <option value="" selected>Item2</option>
+              <option value="">Item1</option>
+              <option value="">Item2</option>
+              <option value="">Item1</option>
+            </optgroup>
+            <optgroup label="title2">
+
+              <option value="">Item2</option>
+              <option value="">Item1</option>
+              <option value="">Item2</option>
+              <option value="">Item1</option>
+              <option value="">Item2</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-row">
+
+          <select multiple>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+            <option value="">Item1</option>
+            <option value="">Item2</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <textarea cols="30"
+            rows="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt a optio quisquam alias qui laborum tempore architecto delectus laudantium beatae animi deleniti, ducimus iusto quo assumenda quaerat nostrum necessitatibus?</textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Input type</legend>
+        <div class="form-row">
+          <input type="text" autofocus tabindex="0" value="Text">
+        </div>
+        <div class="form-row">
+          <input type="text" disabled>
+        </div>
+        <div class="form-row">
+          <input type="text" maxlength="5" minlength="2" required tabindex="-1">
+        </div>
+        <div class="form-row">
+          <input type="text" readonly value="Lorem" tabindex="-1">
+        </div>
+        <div class="form-row">
+          <input type="button" value="Кнопка" tabindex="-1">
+        </div>
+        <div class="form-row">
+          <input type="file" multiple tabindex="-1">
+        </div>
+        <div class="form-row">
+          <input type="hidden">
+        </div>
+        <div class="form-row">
+          <input type="image" src="./images/icons/icon_1.svg" alt="Lorem" tabindex="-1">
+        </div>
+        <div class="form-row">
+          <input type="password" tabindex="1">
+        </div>
+        <div class="form-row">
+          <input type="reset" value="GG">
+        </div>
+        <div class="form-row">
+          <input type="submit" value="Отправить" class="button">
+        </div>
+        <div class="form-row">
+          <input type="color">
+        </div>
+        <div class="form-row">
+          <input type="date">
+        </div>
+        <div class="form-row">
+          <input type="datetime-local">
+        </div>
+        <div class="form-row">
+          <input type="month">
+        </div>
+        <div class="form-row">
+          <input type="range" min="10" max="50" step="2">
+        </div>
+        <div class="form-row">
+          <input type="time">
+        </div>
+        <div class="form-row">
+          <input type="week">
+        </div>
+        <div class="form-row">
+          <input type="url" placeholder="url">
+        </div>
+        <div class="form-row">
+          <input type="tel" placeholder="tel">
+        </div>
+        <div class="form-row">
+          <input type="search" placeholder="search">
+        </div>
+        <div class="form-row">
+          <input type="email" placeholder="email" autocomplete="off">
+        </div>
+        <div class="form-row">
+          <input type="number" placeholder="number" step="2" min="2" max="10">
+        </div>
+
+        <div class="form-row">
+          <input name="delivery" id="checkbox" type="checkbox">
+          <label for="checkbox">Тяпни на меня</label>
+        </div>
+
+        <div class="form-row">
+          <h2>Оплата</h2>
+          <label>
+            <input name="pay" type="radio">
+            Картой
+          </label><br>
+          <label>
+            <input name="pay" type="radio" checked>
+            При получении
+          </label><br>
+          <label>
+            <input name="pay" type="radio">
+            Бесплатно
+          </label>
+        </div>
+
+
+      </fieldset>
+
+      <button class="button">Отправить</button>
+    </form>
   </div>
-  
 </body>
+
+</html>
 </html>

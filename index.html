@@ -1,191 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>ActiveBox</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap"
+    <meta charset="UTF-8">
+    <title>homework</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <div class="container">
-    <form>
-
-      <fieldset>
-        <legend>Title</legend>
-        <label for="name2">Имя</label>
-        <input id="name" type="text" tabindex="0">
-        <input id="name2" type="text" placeholder="Фамилия">
-        <select name="" id="">
-          <option value="">10</option>
-          <option value="">20</option>
-        </select>
-      </fieldset>
-
-      <fieldset>
-        <legend>Title 2</legend>
-        <input type="checkbox" checked>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <div class="form-row">
-
-          <select>
-            <optgroup label="Название группы">
-              <option value="efwrfee">Item1</option>
-              <option value="" selected>Item2</option>
-              <option value="">Item1</option>
-              <option value="">Item2</option>
-              <option value="">Item1</option>
-            </optgroup>
-            <optgroup label="title2">
-
-              <option value="">Item2</option>
-              <option value="">Item1</option>
-              <option value="">Item2</option>
-              <option value="">Item1</option>
-              <option value="">Item2</option>
-            </optgroup>
-          </select>
-        </div>
-        <div class="form-row">
-
-          <select multiple>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-            <option value="">Item1</option>
-            <option value="">Item2</option>
-          </select>
-        </div>
-
-        <div class="form-row">
-          <textarea cols="30"
-            rows="7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis incidunt a optio quisquam alias qui laborum tempore architecto delectus laudantium beatae animi deleniti, ducimus iusto quo assumenda quaerat nostrum necessitatibus?</textarea>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Input type</legend>
-        <div class="form-row">
-          <input type="text" autofocus tabindex="0" value="Text">
-        </div>
-        <div class="form-row">
-          <input type="text" disabled>
-        </div>
-        <div class="form-row">
-          <input type="text" maxlength="5" minlength="2" required tabindex="-1">
-        </div>
-        <div class="form-row">
-          <input type="text" readonly value="Lorem" tabindex="-1">
-        </div>
-        <div class="form-row">
-          <input type="button" value="Кнопка" tabindex="-1">
-        </div>
-        <div class="form-row">
-          <input type="file" multiple tabindex="-1">
-        </div>
-        <div class="form-row">
-          <input type="hidden">
-        </div>
-        <div class="form-row">
-          <input type="image" src="./images/icons/icon_1.svg" alt="Lorem" tabindex="-1">
-        </div>
-        <div class="form-row">
-          <input type="password" tabindex="1">
-        </div>
-        <div class="form-row">
-          <input type="reset" value="GG">
-        </div>
-        <div class="form-row">
-          <input type="submit" value="Отправить" class="button">
-        </div>
-        <div class="form-row">
-          <input type="color">
-        </div>
-        <div class="form-row">
-          <input type="date">
-        </div>
-        <div class="form-row">
-          <input type="datetime-local">
-        </div>
-        <div class="form-row">
-          <input type="month">
-        </div>
-        <div class="form-row">
-          <input type="range" min="10" max="50" step="2">
-        </div>
-        <div class="form-row">
-          <input type="time">
-        </div>
-        <div class="form-row">
-          <input type="week">
-        </div>
-        <div class="form-row">
-          <input type="url" placeholder="url">
-        </div>
-        <div class="form-row">
-          <input type="tel" placeholder="tel">
-        </div>
-        <div class="form-row">
-          <input type="search" placeholder="search">
-        </div>
-        <div class="form-row">
-          <input type="email" placeholder="email" autocomplete="off">
-        </div>
-        <div class="form-row">
-          <input type="number" placeholder="number" step="2" min="2" max="10">
-        </div>
-
-        <div class="form-row">
-          <input name="delivery" id="checkbox" type="checkbox">
-          <label for="checkbox">Тяпни на меня</label>
-        </div>
-
-        <div class="form-row">
-          <h2>Оплата</h2>
-          <label>
-            <input name="pay" type="radio">
-            Картой
-          </label><br>
-          <label>
-            <input name="pay" type="radio" checked>
-            При получении
-          </label><br>
-          <label>
-            <input name="pay" type="radio">
-            Бесплатно
-          </label>
-        </div>
 
 
-      </fieldset>
+    <header class="header">
+    <div class="container">
+    <nav class="header__nav">
+    <a href="" class="header__logo">
+    <img src="./img/logo.png" alt="AXIT" class="header__logo__img">
+    </a>
+    <ul class="menu">
+        <li class="menu__item"><a href="" class="menu_link">Features</a></li>
+        <li class="menu__item"><a href="" class="menu_link">About</a></li>
+        <li class="menu__item"><a href="" class="menu_link">Pricing</a></li>
+        <li class="menu__item"><a href="" class="menu_link">Reviews</a></li>
+        <li class="menu__item"><a href="" class="menu_link">Contact</a></li>
+    </ul>
+    </nav>
+    </div>
+    </header>
+    
+    <main class="main">
+    
+    <section class="welcome">
+        <div class="container">
 
-      <button class="button">Отправить</button>
-    </form>
-  </div>
+        <div class="welcome__main">
+        <div class="welcome__logo">
+        <img src="./img/logo.png" alt="AXIT" class="welcome__logo__img">
+        </div>
+
+        <div class="welcome__h1">
+        <h1 class="title1">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+        </div>
+
+        <hr class="welcome__hr">
+
+        <div class="welcome__p">
+        <p class="title5 welcome__p__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+
+        <button class="button__main  welcome__button">Download</button>
+
+        <div class="formdiv">
+        <form class="form">
+
+          <h4 class="title4 form__title">Try Your <mark class="title4__free">Free</mark> Trial Today</h4>
+      
+          <div class="form__group">
+            <input class="form__input" placeholder=" ">
+            <label class="form__label">Name</label>
+          </div>
+      
+          <div class="form__group">
+            <input class="form__input" placeholder=" ">
+            <label class="form__label">Email</label>
+          </div>
+      
+          <div class="form__group">
+            <input class="form__input" placeholder=" ">
+            <label class="form__label">Password</label>
+          </div>
+      
+          <button class="button form__button">Get Started</button>
+        </form>
+      </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="socialmedia">
+    <div class="container">  
+        <div class="socmedia"><div class="socmedia__left">
+            <p class="title4 socmedia__p1">Social Media</p>
+        <p class="title5 socmedia__p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean euismod bibendum laoreet.</p>
+    </div>
+
+    <div class="socmedia__right">
+        <ul class="socmedia__ul">
+            <li><img src="./img/social_links/1.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/2.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/3.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/4.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/5.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/6.jpeg" alt="" class="socmedia__img"></li>
+            <li><img src="./img/social_links/7.jpeg" alt="" class="socmedia__img"></li>
+        </ul>
+        </div
+        ></div>
+        
+    </div>
+    </section>
+
+    <section class="tabstitles">
+    <div class="container">
+
+        <div class="divtab">
+            <ul class="tabs__ul">
+            <li class="tabs__li li2"><a href="">TAB 1</a></li>
+            <li class="tabs__li"><a href="">TAB 2</a></li>
+            <li class="tabs__li"><a href="">TAB 3</a></li>
+            </ul>
+        </div>
+
+    <div class="tabsdivmain">
+
+        <div class="tabstext">
+        <p class="title3 tabstext__p1">Tabs with soft transitioning effect.</p>
+        <p class="title5 tabstext__p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br>
+            euismod<br>
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br>
+            viverra<br>
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br> 
+            penatibus et magnis dis parturient montes.<br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br>
+            euismod<br>
+            bibendum laoreet.</p>
+
+        <button class="button tabs__button">Download</button>
+        </div>
+
+        <div class="tabspic">
+            <img src="./img/statueofliberty.jpg" class="tabspic__pic">
+        </div>
+    </div>
+
+    </div>
+    </section>
+
+    <section class="awesome">
+    <div class="container">
+
+        <div class="awesome__title">
+        <h2 class="title2 awesome__h2">WHY THIS IS AWESOME</h2>
+        <hr class="awesome__hr">
+        <p class="title5 awesome__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="awesomelist">
+                
+                <div class="awesome__div1">
+                <img src="./img/advantage1.jpeg" class="awesome__img">
+                <h3 class="title4 awesome__h3">Thoughtful Design</h3>
+                <p class="awesomelist__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+
+                <div class="awesome__div2">
+                <img src="./img/advantage2.jpeg" class="awesome__img">
+                <h3 class="title4 awesome__h3">Thoughtful Design</h3>
+                <p class="awesomelist__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+
+                <div class="awesome__div3">
+                <img src="./img/advantage3.jpeg" class="awesome__img">
+                <h3 class="title4 awesome__h3">Thoughtful Design</h3>
+                <p class="awesomelist__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+                </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section class="pricing">
+    <div class="container">
+
+        <div class="pricinghead">
+        <h2 class="title2 pricinghead__h2">pricing options</h2>
+        <hr class="pricinghead__hr">
+        <p class="pricinghead__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+    <div class="pricing__main">
+
+    <div class="pricing__basic">
+        <div class="pricing__title">
+            <h3 class="title4 pricing__h3">Basic</h3>
+        </div>
+        
+        <div class="pricing__prise">
+            <p class="title3 pricing__p1">$10</p>
+        </div>
+        
+        <div class="pricing__text">
+            <p class="title5 pricing__p2">Free for life</p>
+        </div>
+
+    <div class="pricing__GB">
+            <ul class="pricinglist">
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            </ul>
+    </div>
+    </div>
+
+    <div class="pricing__optima">
+    <div class="pricing__title">
+        <h3 class="title4 pricing__h3">Otpima</h3>
+    </div>
+
+    <div class="pricing__prise">
+        <p class="title3 pricing__p1">$20</p>
+    </div>
+
+    <div class="pricing__text">
+        <p class="title5 pricing__p2">Free for life</p>
+    </div>
+
+    <div class="pricing__GB">
+        <ul class="pricinglist">
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+            <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="pricing__pro">
+
+        <div class="pricing__title">
+        <h3 class="title4 pricing__h3">Basic</h3>
+        </div>
+
+        <div class="pricing__prise">
+        <p class="title3 pricing__p1">$30</p>
+        </div>
+
+        <div class="pricing__text">
+        <p class="title5 pricing__p2">Free for life</p>
+        </div>
+
+        <div class="pricing__GB">
+        <ul class="pricinglist">
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        <li><div class="pricingclass"><p class="">1GB of space</p></div></li>
+        </ul>
+        </div>
+
+    </div>
+    </div> 
+
+    </div>    
+    </section>
+
+    <section class="customers">
+    <div class="container">
+        <div class="customerstitle">
+            <div class="customerstitle__h2">
+            <h2 class="title2 customerstitle__h2">what our customers are saying</h2>
+            <hr class="customerstitle__hr">
+            <p class="title5 customerstitle__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+
+        <div class="customerstext__main">
+            <div class="customerstext__div1">
+                <p class="title5 customerstext__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+            </div>
+
+            <div class="customerstext__div2">
+                <p class="title5 customerstext__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+            </div>
+            
+
+            <div class="customerstext__div3">
+                <p class="title5 customerstext__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+            </div>
+        </div>    
+            
+        <div class="customerspersons">
+            <div class="customerspersons__1">
+                <img src="./img/person.jpg" class="customerspersons__img">
+                <h3 class="title4 customerspersons__h3">Jaydon Rosser</h3>
+                <p class="title5 customerspersons__p">Manager</p>
+            </div>
+
+            <div class="customerspersons__2">
+                <img src="./img/person.jpg" class="customerspersons__img">
+                <h3 class="title4 customerspersons__h3">Jaydon Rosser</h3>
+                <p class="title5 customerspersons__p">Manager</p>
+            </div>
+
+            <div class="customerspersons__3">
+                <img src="./img/person.jpg" class="customerspersons__img">
+                <h3 class="title4 customerspersons__h3">Jaydon Rosser</h3>
+                <p class="title5 customerspersons__p">Manager</p>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="stylish">
+    <div class="container">
+
+        <div class="stylishtitle">
+        <h2 class="title2 stylish__h2">STYLISH AXURE DESIGN</h2>
+        <hr class="stylish__hr">
+        <p class="title5 stylish__p">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+        <button class="button__main stylish__btn">Download</button>
+        </div>
+        
+    
+    </div>
+    </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <ul class="socmedia__ul">
+            <li><img src="./img/social_links/1.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/2.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/3.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/4.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/5.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/6.jpeg" class="footer__li" alt=""></li>
+            <li><img src="./img/social_links/7.jpeg" class="footer__li" alt=""></li>
+                </ul>
+        </nav>
+        <p class="title5 footer__p">© 2015 Axure Themes</p> 
+        </div>
+    </footer>
+
+
+
 </body>
-
-</html>
 </html>

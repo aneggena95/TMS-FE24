@@ -123,31 +123,37 @@ button:active {
   position: relative;
   background-color: #000;
 }
+
 .header__nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
+
 .header__logo{
   margin-left: -55px;
   padding-top: 22px;
   padding-bottom: 22px;
 }
-.header__logo__img{
-  height: 31px;
+
+.href__img{
   width: 85px;
 }
+
 .menu{
+  margin-left: 567px;
+}
+
+.menu__ul{
   display: inline-flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+
 }
 .menu__item {
-min-width: 113px;
+width: 113px;
 text-align: center;
 }
-.menu_link{
+.menu__link{
 font: 'Open Sans';
 font-size: 14px;
 line-height: 75px;
@@ -170,7 +176,6 @@ text-decoration: none;
   background-size:cover;
   background-repeat: no-repeat;
 }
-
 
 .welcome__logo{
   display: inline-block;

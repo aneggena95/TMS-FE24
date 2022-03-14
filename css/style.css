@@ -322,6 +322,8 @@ font-size: 12px;
 color: #e0e0e0;
 }
 
+/* socialmedia */
+
 .socialmedia{
   background-color: #F8EFEF ;
 }
@@ -362,112 +364,32 @@ margin-bottom: 43px;
 width: 55px;
 height: 55px;
 margin-right: 45px;
-}}
+}
 
-/*
-.socialmedia{
-    background-color: #F8EFEF;
+/* awesome */
+
+
+.awesome{
+  margin-top: 50px;
 }
-.socmedia{
-  display: inline-block;
-  align-items: center;
-  background-color: #F8EFEF;
+
+.awesome-title{
+  margin: 0 auto;
 }
-.socmedia__left{
-  display: inline-block;
-  margin-top: 2px;
-  margin-bottom: 18px;
-}
-.socmedia__p1{
-  padding: 20px 0;
-  text-align: left;
-  line-height: 36px;
-}
-.socmedia__p2{
-  display: inline;
-  margin-top: 18px;
-  text-align: left;
-  margin-bottom: 18px;
-}
-.socmedia__right{
-  display: inline-block;
+.awesome__title{
+  color: #000;
+  padding: 54px 0;
   text-align: center;
-  margin: 42px 0 42px 50px;
-}
-.socmedia__ul{
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-.socmedia__img{
-  display: inline-block;
-  height: 55px;
-  margin: auto 5px;
 }
 
-/* tabs */
+.awesome-line{
+  border: 1px solid #EC7979;
+  width: 170px;
+  margin: 0 auto;
+}
 
-.tabstitles{
-  background-color: #ffffff;
-}
-.divtab{
-  display: inline-block;
-  margin-top: 80px;
-}
-.tabs__ul{
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.tabs__li{
-  font: 'Open Sans' sans-serif;
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: 400;
-  min-width: 185px;
-  text-decoration: none;
-  text-align: center;;
-}
-.li2{
-  border:#C6CBCD;
-  border-style: solid;
-  border-width: 2px 2px 0px 2px;
-}
-.tabsdivmain{
-  display: inline-flex;
-  flex-direction: row;
-  border: #C6CBCD;
-  border-style: solid;
-  border-width: 2px;
-}
-.tabstext{
-  display: inline-block;
-  margin-left: 100px;
-}
-.tabstext__p1{
-  font-size: 18px;
-  line-height: 40px;
+.awesome__text{
+  color: #86878B;
   margin-top: 40px;
+  text-align: center;
 }
-.tabstext__p2{  
-  font-size: 18px;
-  line-height: 21px;
-  margin-top: 40px;
-}
-.tabs__button{
-  margin-top: 27px;
-  margin-bottom: 54px;
-}
-.tabspic__pic{
-  display: inline-block;
-  margin-left: 30px;
-  margin-right: 0px;
-  width: 470px;
-}
-.tabspic__pic{
-  margin-right: 0px;
-}
-

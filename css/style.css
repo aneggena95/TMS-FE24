@@ -171,25 +171,24 @@ text-decoration: none;
 
 /* welcome */
 
-.welcome{
+.welcomemain{
   background: linear-gradient(rgba(15, 16, 20, 0.8), rgba(15, 16, 20, 0.8)) 25% 25%, url('/img/banner.jpeg');
   background-size:cover;
   background-repeat: no-repeat;
+
 }
-
-
 
 /* welcome form */
 
 .formdiv{
-  position: absolute;
+
   margin-left: 700px;
   margin-top: 283px;
   width: 470px;
 }
 
-.formwithoutbtn{
-  
+.withoutbtn{
+
 }
 .form{
   padding: 0 50px;
@@ -198,6 +197,7 @@ text-decoration: none;
   letter-spacing: 1px;
   background-color: #fff;
   width: 100%;
+
 }
 
 .form__input,

@@ -157,8 +157,31 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 1024px) {
-  .banner{
-    display: none;
+  .container{
+    padding-left: 115px;
+    padding-right: 20px;
+  }
+  .header__logo{
+    margin-left: 115px;
+  }
+  .menu{
+    margin-left: 235px;
+    background-color: #1a73a8;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .header__logo{
+    margin-left: 115px;
+  }
+  .menu{
+    margin-left: 235px;
+    margin-right: 20px;
   }
 }
 

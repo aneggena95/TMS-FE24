@@ -492,20 +492,23 @@ margin-right: 45px;
 .awesome-list{
   margin-top: 110px;
   display: grid;
+  background-color: #1a73a8;
 }
 
 .colum__left{
   grid-column: 1;
   grid-row: 1;
+  background-color: red;
 }
 .colum__center{
   grid-column: 2;
   grid-row: 1;
-  margin: 0 30px;
+  background-color: rgb(217, 255, 0);
 }
 .colum__right{
   grid-column: 3;
   grid-row: 1;
+  background-color: rgb(35, 38, 197);
 }
 
 .awesome__colum{
@@ -521,22 +524,21 @@ margin-right: 45px;
   border: #EC7979 solid 1px;
   border-radius: 50%;
 }
+
 .colum-img1{
-  width: 65px;
-  height: 65px;
-  margin: 13px;
+  width: 100%;
+  height: 100%;
+  padding: 13px;
 }
-
 .colum-img2{
-  width: 66px;
-  height: 46px;
-  margin: 23px 13px;
+  width: 100%;
+  height: 100%;
+  padding: 23px 13px;
 }
-
 .colum-img3{
-  width: 44px;
-  height: 66px;
-  margin: 13px 22px;
+  width: 100%;
+  height: 100%;
+  padding: 13px 22px;
 }
 
 .colum__title{
@@ -545,7 +547,6 @@ margin-right: 45px;
   margin-top: 39px;
   padding: 34px 0;
 }
-
 .colum-title{
   text-align: center;
   color: #000;
@@ -556,11 +557,11 @@ margin-right: 45px;
   grid-column: 1; 
   grid-row: 3; 
 }
-
 .colum-text{
   text-align: center;
   color: #000;
 }
+
 
 /*pricing*/
 

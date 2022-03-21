@@ -156,42 +156,6 @@ color: #fff;
 text-decoration: none;
 }
 
-@media only screen and (max-width: 1024px) {
-  .container{
-    padding-left: 115px;
-    padding-right: 20px;
-  }
-  .header__logo{
-    margin-left: 115px;
-  }
-  .menu{
-    margin-left: 235px;
-    background-color: #1a73a8;
-  }
-}
-
-
-@media (max-width: 320px) and (orientation: portrait) {
-  .container{
-    padding-left: 20px;
-    padding-right: 35px;
-  }
-  .header__logo{
-    margin-left: 115px;
-  }
-  .header__logo{
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  .logo__img{
-    height: 38px;
-    width: 62px;
-  }
-  .menu{
-    display: none;
-  }
-}
-
 /* main */
 
 .main{
@@ -211,12 +175,12 @@ text-decoration: none;
 }
 
 .welcomediv{
-
+box-sizing: border-box;
+width: 670px;
 }
   
 .welcome__logo{
-  position: absolute;
-  margin-top: 231px;
+  margin-top: 154px;
   width: 165px;
 }
 
@@ -225,7 +189,7 @@ text-decoration: none;
 }
 
 .welcome__title{
-  margin-top: 357px;
+  margin-top: 55px;
   width: 670px;
 }
 
@@ -246,50 +210,13 @@ text-decoration: none;
   background-color: transparent;
 }
 
-@media only screen and (max-width: 1024px) {
-  .container{
-    padding-left: 115px;
-    padding-right: 20px;
-  }
-  .header__logo{
-    margin-left: 115px;
-  }
-  .menu{
-    margin-left: 235px;
-    background-color: #1a73a8;
-  }
-}
-
-
-@media (max-width: 320px) and (orientation: portrait) {
-  .container{
-    padding-left: 20px;
-    padding-right: 35px;
-  }
-  .header__logo{
-    margin-left: 115px;
-  }
-  .header__logo{
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  .logo__img{
-    height: 38px;
-    width: 62px;
-  }
-  .menu{
-    display: none;
-  }
-}
-
-
 /* welcome form */
 
 .formdiv{
-  position: absolute;
-  margin-left: 700px;
-  margin-top: 208px;
-  width: 470px;
+  margin-left: 30px;
+  margin-top: 137px;
+  width: 398px;
+  height: 435px;
   background-color: #fff;
   border-radius: 10px 10px 10px 10px;
 }

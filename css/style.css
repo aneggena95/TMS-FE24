@@ -156,6 +156,26 @@ color: #fff;
 text-decoration: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  .banner{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+
+@media (max-width: 575px) and (orientation: portrait) {
+  .box__item{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
 /* main */
 
 .main{

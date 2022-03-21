@@ -128,7 +128,7 @@ button:active {
   padding-bottom: 22px;
 }
 
-.href__img{
+.logo__img{
   width: 85px;
 }
 
@@ -171,17 +171,24 @@ text-decoration: none;
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 320px) and (orientation: portrait) {
   .container{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 35px;
   }
   .header__logo{
     margin-left: 115px;
   }
+  .header__logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .logo__img{
+    height: 38px;
+    width: 62px;
+  }
   .menu{
-    margin-left: 235px;
-    margin-right: 20px;
+    display: none;
   }
 }
 
@@ -237,6 +244,42 @@ text-decoration: none;
   margin-top: 42px;
   margin-bottom: 185px;
   background-color: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    padding-left: 115px;
+    padding-right: 20px;
+  }
+  .header__logo{
+    margin-left: 115px;
+  }
+  .menu{
+    margin-left: 235px;
+    background-color: #1a73a8;
+  }
+}
+
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .container{
+    padding-left: 20px;
+    padding-right: 35px;
+  }
+  .header__logo{
+    margin-left: 115px;
+  }
+  .header__logo{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .logo__img{
+    height: 38px;
+    width: 62px;
+  }
+  .menu{
+    display: none;
+  }
 }
 
 

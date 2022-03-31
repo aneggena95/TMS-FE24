@@ -187,6 +187,9 @@ button:active {
 width: 113px;
 text-align: center;
 }
+.menu__item:hover{
+  background-color: #AB4949;
+}
 .menu__link{
 font: 'Open Sans';
 font-size: 14px;

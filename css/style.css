@@ -234,12 +234,97 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 575px) {
-  .menu__item {
-    max-width: 55px;
-    text-align: center;
-    }
   .menu{
-    margin-right: 5px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    height: 40px;
+  }
+  
+  #check-menu{
+    display: none;
+  }
+  
+  label{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+  line-height: 40px;
+  }
+  
+  .burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: antiquewhite;
+  }
+  
+  .line2,
+  .line3{
+  top: 18px;
+  }
+  
+  .line4{
+    top: 28px;
+    }
+  
+  .main-menu{
+      display: block;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      transform: translateY(100%);
+      max-height: 0;
+      font-size: 0;
+      overflow: hidden;
+      transition: 0.5s all;
+    }
+  
+  a{
+      display: block;
+      width: 100%;
+      padding: 10px;
+      color: aliceblue;
+      text-decoration: none;
+      border-top: 1px solid rgb(196, 196, 196, .3);
+      background-color: black;
+    }
+  
+  #check-menu:checked ~ .main-menu{
+    max-height: 200px;
+    font-size: 16px;
+  }
+  
+  #check-menu:checked ~ .line1{
+  display: none;
+  }
+  
+  #check-menu:checked ~ .line2{
+    transform: rotate(45deg);
+    transition: 0.5s all;
+    }
+  
+    #check-menu:checked ~ .line3{
+      transform: rotate(-45deg);
+      transition: 0.5s all;
+  
+    }
+  
+  #check-menu:checked ~ .line4{
+    display: none;
+    }
+  
+  
   }
 }
 

@@ -20,15 +20,16 @@
 
     <header class="header">
     <div class="container">
-        <nav class="header__nav">
+      <div class="row">
 
-        <div class="header__logo">
+        <nav class="header__nav">
+        <div class="header__logo col-lg-2 col-md-3 col-3">
         <a href="">
         <img src="./img/logo.png" alt="AXIT" class="logo__img">
         </a>
         </div>
         
-        <div class="menu">
+        <div class="menu col-lg-6 col-md-7 col-8">
         <ul class="menu__ul">
             <li class="menu__item"><a href="" class="menu__link">Features</a></li>
             <li class="menu__item"><a href="" class="menu__link">About</a></li>
@@ -37,7 +38,10 @@
             <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
         </ul>
         </div>
-        </nav>
+        </nav>          
+        </div>
+      </div>
+
     </div>
     </header>
 
@@ -46,9 +50,10 @@
     <section class="welcome">
     <div class="container">
 
-    <div class="welcomemain">
 
-        <div class="welcomediv">
+    <div class="row welcomemain">
+
+        <div class="welcomediv col-lg-8 col-md-8 col-12">
                 
             <div class="welcome__logo">
             <img src="./img/logo.png" alt="AXIT" class="welcome__img">
@@ -68,9 +73,9 @@
             <button class="button button__main">Download</button>
         </div>
 
-        <div class="formdiv">
+        <div class="formdiv col-lg-4 col-md-4 col-12">
             <div class="withoutbtn">
-        <form class="form">
+            <form class="form">
             <h4 class="title4 form__title">Try Your <mark class="title4__free">Free</mark> Trial Today</h4>
 
             <div class="form__group">
@@ -224,20 +229,17 @@
     <div class="container">
 
     <div class="row">
-    <div class="col-lg-12 col-md-12 col-12">
-      <div class="awesome-head">    
+    <div class="awesome-head col-lg-12 col-md-12 col-12">
         <h2 class="title2 awesome__title">WHY THIS IS AWESOME</h2>
         <div class="awesome-line"></div>
         <p class="title5 awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
-    </div>
 
     <div class="row">
 
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="colum__left">
-            
+      <div class="awesome__colum col-lg-4 col-md-6 col-12">
+
           <div class="colum__img">
           <img src="./img/advantage1.jpeg" class="colum-img1">
           </div>
@@ -250,11 +252,9 @@
           <p class="colum-text title5">Lorem ipsum dolor sit amet, consectetur adipiscing 
               elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>    
           </div>    
-          </div>  
       </div>
 
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="colum__center">
+      <div class="awesome__colum col-lg-4 col-md-6 col-12">
             
           <div class="colum__img">
           <img src="./img/advantage2.jpeg" class="colum-img2">
@@ -268,12 +268,9 @@
           <p class="colum-text title5">Lorem ipsum dolor sit amet, consectetur adipiscing 
               elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
           </div>
-          </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-12">
-
-        <div class="colum__right">
+      <div class="awesome__colum col-lg-4 col-md-6 col-12">
             
           <div class="colum__img">
           <img src="./img/advantage3.jpeg" class="colum-img3">
@@ -287,7 +284,6 @@
           <p class="colum-text title5">Lorem ipsum dolor sit amet, consectetur adipiscing 
               elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>    
           </div>
-          </div>
       </div>
 
     </div>  
@@ -299,18 +295,15 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-12">
-        <div class="pricing-head">    
+        <div class="pricing-head col-lg-12 col-md-12 col-12">
           <h2 class="title2 pricing__title">pricing options</h2>
           <div class="pricing-line"></div>
           <p class="title5 pricing__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
       </div>
-      </div>
       
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-12">
-        <div class="pricing-column">    
+        <div class="pricing-column col-lg-4 col-md-6 col-12">
             <div class="tarif"><p class="title4">Basic</p></div>
             <div class="price"><p class="title3">$10</p></div>
             <div class="terms"><p class="title5">Free for life</p></div>
@@ -325,11 +318,8 @@
                 </ul>
             </div>
         </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
-      <div class="pricing-column2">
-            
+        <div class="pricing-column col-lg-4 col-md-6 col-12">            
                 <div class="tarif"><p class="title4">Optima</p></div>
                 <div class="price"><p class="title3">$20</p></div>
                 <div class="terms"><p class="title5">Free for life</p></div>
@@ -343,49 +333,41 @@
                         <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
                     </ul>
                 </div>
-      </div>
         </div>
 
-      <div class="col-lg-4 col-md-6 col-12">
-      <div class="pricing-column">
-            
-                <div class="tarif"><p class="title4">Pro</p></div>
-                <div class="price"><p class="title3">$30</p></div>
-                <div class="terms"><p class="title5">Free for life</p></div>
-                <div class="bonus">
-                    <ul class="bous__ul">
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
-                        </ul>
-                    </div>
-      </div>
+      <div class="pricing-column col-lg-4 col-md-6 col-12">
+              <div class="tarif"><p class="title4">Pro</p></div>
+              <div class="price"><p class="title3">$30</p></div>
+              <div class="terms"><p class="title5">Free for life</p></div>
+              <div class="bonus">
+                <ul class="bous__ul">
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                    <li class="bonus__li"><p class="bonus__li-p title5">1 Gb of Space</p></li>
+                </ul>
+              </div>
       </div>
 
-    </div>
+      </div>
     </section>
 
     <section class="customers">
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-12 col-md-12 col-12">
-        <div class="customers-head">    
+        <div class="customers-head col-lg-12 col-md-12 col-12">
             <h2 class="title2 customers__title">what our customers are saying</h2>
             <div class="customers-line"></div>
             <p class="title5 customers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
         </div>
       </div>
 
       <div class="row">
 
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="customer-col">
-
+        <div class="customer-col col-lg-4 col-md-6 col-12">
           <div class="quote">
             <p class="quote__p title5">Lorem ipsum dolor sit amet, 
               consectetur adipisicing elit. Doloribus 
@@ -404,13 +386,9 @@
               <p class="customer-position title5"> Manager </p>
             </div>
           </div>
-
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="customer-col">
-
+        <div class="customer-col col-lg-4 col-md-6 col-12">
           <div class="quote">
             <p class="quote__p title5">Lorem ipsum dolor sit amet, 
               consectetur adipisicing elit. Doloribus 
@@ -429,12 +407,9 @@
               <p class="customer-position title5"> Manager </p>
             </div>
           </div>
-
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="customer-col">
+        <div class="customer-col col-lg-4 col-md-6 col-12">
 
           <div class="quote">
             <p class="quote__p title5">Lorem ipsum dolor sit amet, 
@@ -453,8 +428,6 @@
               <p class="customer-name title4"> Cooper Dorwart </p>
               <p class="customer-position title5"> Manager </p>
             </div>
-          </div>
-
           </div>
         </div>
 
@@ -540,7 +513,7 @@
     <div class="container">
 
         <div class="footer-social">
-            <ul class="socialmedia__ul footer__ul">
+            <ul class="socialmedia__ul">
                 <li><img src="./img/social_links/1.jpeg" alt="" class="socmedia__img"></li>
                 <li><img src="./img/social_links/2.jpeg" alt="" class="socmedia__img"></li>
                 <li><img src="./img/social_links/3.jpeg" alt="" class="socmedia__img"></li>

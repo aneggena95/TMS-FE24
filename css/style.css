@@ -20,6 +20,50 @@ body{
   padding-right: 170px;
 }
 
+@media only screen and (max-width: 1420px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 35px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+
 /* Titles */
 
 h1,
@@ -129,14 +173,15 @@ button:active {
 }
 
 .menu{
-  margin-left: 567px;
+  position: absolute;
+  top: 0px;
+  right: 1px;
 }
 
 .menu__ul{
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-
 }
 .menu__item {
 width: 113px;
@@ -150,6 +195,52 @@ font-weight: 600;
 text-align: center;
 color: #fff;
 text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .header__logo{
+    margin-left: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .menu__item {
+    max-width: 100px;
+    text-align: center;
+    }
+  .menu{
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .menu__item {
+    max-width: 80px;
+    text-align: center;
+    }
+  .menu{
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .menu__item {
+    max-width: 70px;
+    text-align: center;
+    }
+  .menu{
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .menu__item {
+    max-width: 55px;
+    text-align: center;
+    }
+  .menu{
+    margin-right: 5px;
+  }
 }
 
 /* main */
@@ -166,15 +257,11 @@ text-decoration: none;
   background-repeat: no-repeat;
 }
 
-.welcomemain{
-  display: inline-flex;
-}
-
 .welcomediv{
 box-sizing: border-box;
-width: 670px;
+max-width: 670px;
 }
-  
+
 .welcome__logo{
   margin-top: 154px;
   width: 165px;
@@ -186,7 +273,6 @@ width: 670px;
 
 .welcome__title{
   margin-top: 55px;
-  width: 670px;
 }
 
 .welcome__line{
@@ -273,7 +359,6 @@ transition: 0.3s;
 }
 
 .form__button{
-  left: 0px;
   color: #fff;
   outline: none;
   cursor: pointer;
@@ -305,6 +390,97 @@ top: -18px;
 font-size: 12px;
 color: #e0e0e0;
 }
+
+@media only screen and (max-width: 1210px) {
+  .welcomediv{
+  margin-left: 105px;
+  max-width: 455px;
+  }
+  .formdiv{
+  max-width: 398px;
+  height: 450px;
+  margin-left: 35px;
+  padding: 0 25px;
+  }
+  .form__button{
+    position: relative;
+    top: -10px;
+  }
+  .title1{
+    font-size: 42px;
+    line-height: 52px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .welcomediv{
+    margin-left: 1px;
+    max-width: 430px;
+  }
+  .formdiv{
+  max-width: 370px;
+  }
+  .title1{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .title4{
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .welcomediv{
+    max-width: 400px;
+    margin-left: 1px;
+  }
+  .formdiv{
+  max-width: 340px;
+  }
+  .title1{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .title4{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .form__button{
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .welcomediv{
+    max-width: 360px;
+    margin-left: 1px;
+  }
+  .formdiv{
+  max-width: 280px;
+  }
+  .title1{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .title4{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .form__button{
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .welcomediv{
+    margin: 0 auto;
+  }
+  .formdiv{
+    margin: 0 auto;
+  }
+}
+
 
 /* socialmedia */
 
@@ -516,30 +692,27 @@ margin-right: 45px;
   color: #000;
 }
 
-.awesome__colums{
-  width: 100%;
-background-color: #1a73a8;
+.awesome__colum{
+  position: relative;
+  max-width: 370px;
 }
 
-@media only screen and (max-width: 1199px) {
-  .awesome__colum:last-child{
-    margin: 50px auto;
-  }
-}
 
 @media only screen and (max-width: 991px) {
+  .awesome__colum{
+    margin: 0 auto;
+  }
+  .awesome__colum:last-child{
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-}
-
-
-@media (max-width: 575px) and (orientation: portrait) {
-  .box__item{
-    margin-right: -15px;
-    margin-left: -15px;
+  .awesome__colum{
+    margin-top: 50px;
   }
 }
+
 
 
 
@@ -574,7 +747,7 @@ background-color: #1a73a8;
   text-align: center;
 }
 
-.pricing-column2{
+.pricing-column:nth-child(2){
   position: relative;
   top: -20px;
 }
@@ -619,6 +792,15 @@ background-color: #1a73a8;
   border-bottom: 0px;
 }
 
+@media only screen and (max-width: 991px) {
+  .pricing-column:nth-child(2){
+    position: relative;
+    top: 0px;
+  }
+  .pricing-column:last-child{
+    margin: auto;
+  }
+}
 
 
 /* customers */
@@ -697,6 +879,12 @@ background-color: #1a73a8;
   color: #000;
 }
 
+@media only screen and (max-width: 991px) {
+  .customer-col:last-child{
+    margin: auto;
+    margin-top: 50px;
+  }
+}
 
 /* stylish */
 
@@ -798,6 +986,16 @@ background-color: #1a73a8;
 }
 
 
+@media only screen and (max-width: 991px) {
+  .form__massege{
+    margin-left: 0px;
+  }
+  .form__input-contact{
+    padding-top: 100px;
+  }
+}
+
+
 /* footer */
 
 .footer{
@@ -807,9 +1005,9 @@ background-color: #1a73a8;
 }
 
 .footer-social{
-  display: inline-block;
   padding-top: 42px;
-  margin-left: 255px;
+  margin: 0 auto;
+
 }
 
 .footer-text{
@@ -824,4 +1022,39 @@ margin-bottom: 27px;
 
 .footer__li{
   margin-right: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+  .socialmedia__ul{
+    margin: 0 auto;
+  }
+  .socmedia__img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    }
+    .footer__li{
+      margin-right: 0px;
+    }
+  .footer-text{
+    margin: 25px auto;
+    background-color: #1a73a8;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .socialmedia__ul{
+
+  }
+  .socmedia__img{
+    width: 25px;
+    height: 25px;
+
+    }
+    .footer__li{
+      margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
 }
